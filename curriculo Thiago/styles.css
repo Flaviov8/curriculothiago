@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+header a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.fa-whatsapp {
+    color: #25D366; /* Cor verde do WhatsApp */
+    margin-right: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #0073e6;
+}
+
+section h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+section p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section h2 {
+        font-size: 1.3em;
+    }
+
+    section h3 {
+        font-size: 1.1em;
+    }
+
+    section p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    section h2 {
+        font-size: 1.2em;
+    }
+
+    section h3 {
+        font-size: 1em;
+    }
+
+    section p {
+        font-size: 0.8em;
+    }
+
+    /* Ajustes para links de telefone e e-mail */
+    header a {
+        display: block; /* Coloca cada link em uma linha */
+        margin: 5px 0;
+    }
+
+    .fa-whatsapp {
+        margin-right: 3px;
+    }
+}
